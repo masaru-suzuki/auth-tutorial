@@ -2,6 +2,11 @@
   "name": "auth-tutorial",
   "module": "index.ts",
   "type": "module",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/indesx.js"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "nodemon": "^3.1.4"
